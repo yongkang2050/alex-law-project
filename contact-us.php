@@ -141,7 +141,7 @@
 		</div><!--/header-bottom-->
 	</header><!--/header-->
 	 
-	<div id="contact-page" class="container">
+	 <div id="contact-page" class="container">
     	<div class="bg">
 	    	<div class="row">    		
 	    		<div class="col-sm-12">    			   			

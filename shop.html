@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en">
+
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -13,6 +16,17 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<link href="checkoutcss.css" rel="stylesheet" />
+
+	<!-- Include Hammer (optional) -->
+	<script src="/jquery/js/hammer-v2.0.3.js"></script>
+
+	<!-- Include Flickerplate -->
+	<script src="jquery/js/flickerplate.js"></script>
+	<link href="jquery/css/flickerplate.css" type="text/css" rel="stylesheet">
+
+	<!-- Demo styles -->
+	<link href="jquery/css/demo.css" type="text/css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -143,70 +157,35 @@
 	</header><!--/header-->
 	
 	
-	<section id="slider"><!--slider-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-						</ol>
-						
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free E-Commerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/ROG Delta GUNDAM EDITION Main-min.png" class="girl img-responsive" alt="" />
-									
-								</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>100% Responsive Design</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/ROG Gladius II Wireless Main-min.png" class="girl img-responsive" alt="" />
-									
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/ROG Strix Scope PBT Main 3-min.png" class="girl img-responsive" alt="" />
-									
-								</div>
-							</div>
-							
-						</div>
-						
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
+	<section id="advertisement">
+		<div class="flicker-example">
+
+			<ul>
+
+				<li data-background="https://dlcdnwebimgs.asus.com/gain/8E8B8038-8F22-4408-A4ED-43DDDF2D71AC/w717/h525">
+					<div class="flick-title">ROG Strix Scope TKL Deluxe</div>
+					<div class="flick-sub-text">ROG Strix Scope TKL Deluxe wired mechanical RGB gaming keyboard for FPS
+						games, with Cherry MX switches, aluminum frame, ergonomic wrist rest, and Aura Sync lighting
 					</div>
-					
-				</div>
-			</div>
+				</li>
+
+				<li data-background="https://dlcdnwebimgs.asus.com/gain/875F7DD9-77CF-4AD8-BEC8-0D6D6144BDED/w717/h525">
+					<div class="flick-title">ROG Strix Scope PBT</div>
+					<div class="flick-sub-text">ROG Strix Scope PBT wired mechanical gaming keyboard with Cherry MX
+						switches, aluminum frame, and wider Ctrl key for FPS games</div>
+				</li>
+
+				<li data-background="https://dlcdnwebimgs.asus.com/gain/EC40AFEC-CB78-4B3A-AE09-89F585316B05/w717/h525">
+					<div class="flick-title">ROG Strix Scope RX</div>
+					<div class="flick-sub-text">ROG Strix Scope RX optical RGB gaming keyboard for FPS gamers, with ROG
+						RX Optical Mechanical Switches, all-round Aura Sync RGB illumination, IP56 water and dust
+						resistance, USB 2.0 passthrough, and alloy top plate</div>
+				</li>
+
+			</ul>
+
 		</div>
-	</section><!--/slider-->
+	</section>
 	
 	<section>
 		<div class="container">
@@ -324,326 +303,481 @@
 				</div>
 				
 				<div class="col-sm-9 padding-right">
-					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Features Items</h2>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Centurion tempsnip2-min.png" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+					<ul>
+
+						<div class="features_items" id="wrap">
+							<!--features_items-->
+							<h2 class="title text-center">Features Items</h2>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="1">
+											<div class="productinfo text-center">
+
+												<img src="image/Monitor/Rog Strix XG43UQ/Rog Strix XG43UQ Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">7888</span><br>
+													<span class="name">Rog Strix XG43UQ</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">7888</span><br>
+														<span class="name">Rog Strix XG43UQ</span>
+													</div>
+												</div>
+											</div>
+										</li>
 									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
+
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="2">
+											<div class="productinfo text-center">
+
+												<img src="image/Monitor/ROG SWIFT 360Hz PG259QN/ROG SWIFT 360Hz PG259QN Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">3488</span><br>
+													<span class="name">ROG SWIFT 360Hz PG259QN</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">3488</span><br>
+														<span class="name">ROG SWIFT 360Hz PG259QN</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="3">
+											<div class="productinfo text-center">
+
+												<img src="image/HeadsetOrHeadphone/ROG Centurion/ROG Centurion Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">1167</span><br>
+													<span class="name">ROG Centurion</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">1167</span><br>
+														<span class="name">ROG Centurion</span>
+													</div>
+												</div>
+											</div>
+										</li>
 									</div>
 								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
+							</div>
+
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="4">
+											<div class="productinfo text-center">
+
+												<img src="image/HeadsetOrHeadphone/ROG Strix Go BT/ROG Strix Go BT Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">1071</span><br>
+													<span class="name">ROG Strix Go BT</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">1071</span><br>
+														<span class="name">ROG Strix Go BT</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="5">
+											<div class="productinfo text-center">
+
+												<img src="image/HeadsetOrHeadphone/ROG STRIX GO CORE/ROG STRIX GO CORE Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">334</span><br>
+													<span class="name">ROG STRIX GO CORE</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">334</span><br>
+														<span class="name">ROG STRIX GO CORE</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="6">
+											<div class="productinfo text-center">
+
+												<img src="image/Mouse/ROG Gladius II Wireless/ROG Gladius II Wireless Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">439</span><br>
+													<span class="name">ROG Gladius II Wireless</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">439</span><br>
+														<span class="name">ROG Gladius II Wireless</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="7">
+											<div class="productinfo text-center">
+
+												<img src="image/Mouse/ROG Gladius III/ROG Gladius III Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">299</span><br>
+													<span class="name">ROG Gladius III</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">299</span><br>
+														<span class="name">ROG Gladius III</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="8">
+											<div class="productinfo text-center">
+
+												<img src="image/Mouse/ROG Strix Evolve/ROG Strix Evolve-main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">269</span><br>
+													<span class="name">ROG Strix Evolve</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">269</span><br>
+														<span class="name">ROG Strix Evolve</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="9">
+											<div class="productinfo text-center">
+
+												<img src="image/Mouse/ROG Strix Impact II/ROG Strix Impact II-main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">299</span><br>
+													<span class="name">ROG Strix Impact II</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">299</span><br>
+														<span class="name">ROG Strix Impact II</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="10">
+											<div class="productinfo text-center">
+
+												<img src="image/Keyboard/ROG Strix Scope/ROG Strix Scope Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">688</span><br>
+													<span class="name">ROG Strix Scope</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">688</span><br>
+														<span class="name">ROG Strix Scope</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="11">
+											<div class="productinfo text-center">
+
+												<img src="image/Keyboard/ROG Strix Scope Deluxe/ROG Strix Scope Deluxe Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">958</span><br>
+													<span class="name">ROG Strix Scope Deluxe</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">958</span><br>
+														<span class="name">ROG Strix Scope Deluxe</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="12">
+											<div class="productinfo text-center">
+
+												<img src="image/Keyboard/ROG Strix Scope PBT/ROG Strix Scope PBT Main.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">589</span><br>
+													<span class="name">ROG Strix Scope PBT</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">589</span><br>
+														<span class="name">ROG Strix Scope PBT</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="13">
+											<div class="productinfo text-center">
+
+												<img src="image/Keyboard/ROG Strix Scope TKL Deluxe/ROG Strix Scope TKL Deluxe Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">649</span><br>
+													<span class="name">ROG Strix Scope TKL Deluxe</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">649</span><br>
+														<span class="name">ROG Strix Scope TKL Deluxe</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="14">
+											<div class="productinfo text-center">
+
+												<img src="image/Monitor/ROG Strix XG279Q-G GUNDAM EDITION/ROG Strix XG279Q-G GUNDAM EDITION Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">3288</span><br>
+													<span class="name">ROG Strix XG279Q-G GUNDAM EDITION</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">3288</span><br>
+														<span class="name">ROG Strix XG279Q-G GUNDAM EDITION</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="15">
+											<div class="productinfo text-center">
+
+												<img src="image/HeadsetOrHeadphone/ROG Delta GUNDAM EDITION/ROG Delta GUNDAM EDITION Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">839</span><br>
+													<span class="name">ROG Delta GUNDAM EDITION</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">839</span><br>
+														<span class="name">ROG Delta GUNDAM EDITION</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<li id="16">
+											<div class="productinfo text-center">
+
+												<img src="image/Monitor/ROG SWIFT PG279QE/ROG SWIFT PG279QE Main-min.png"
+													alt="" />
+												<div>
+													<h2>RM</h2><span class="price">3549</span><br>
+													<span class="name">ROG SWIFT PG279QE</span>
+												</div>
+
+
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<div>
+														<h2>RM</h2><span class="price">3549</span><br>
+														<span class="name">ROG SWIFT PG279QE</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</div>
+
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Gladius III FullScreenCapture-min3-min.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Strix Impact II FullScreenCapture 4-min.png" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG SWIFT PG279QE title2-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-									<img src="images/new.png" class="new" alt="" />
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG SWIFT PG279QE Capture1-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-									<img src="images/sale.png" class="new" alt="" />
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/Rog Strix XG43UQ tempsnip-min.png" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Strix Go BT Capture12-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG STRIX GO CORE Capture6-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Strix Scope Deluxe FullScreenCapture 2-min.png" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG SWIFT 360Hz PG259QN Capture4-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Strix Go BT Capture6-min.PNG" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/ROG Gladius II Wireless FullScreenCapture 5-min.png" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<ul class="pagination">
-							<li class="active"><a href="">1</a></li>
-							<li><a href="">2</a></li>
-							<li><a href="">3</a></li>
-							<li><a href="">&raquo;</a></li>
-						</ul>
-					</div><!--features_items-->
+						<!--features_items-->
+
+
+					</ul>
 				</div>
+			</div>
+			<div id="left_bar" class="col-sm-6">
+
+				<form action="#" id="cart_form" name="cart_form">
+
+					<div class="cart-info"></div>
+
+					<div class="cart-total">
+
+						<b>Total Charges:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+						RM<span>0</span>
+
+						<input type="hidden" name="total-hidden-charges" id="total-hidden-charges" value="0" />
+					</div>
+
+					<button type="submit" id="Checkout">CheckOut</button>
+
+				</form>
+
 			</div>
 		</div>
 	</section>
@@ -696,7 +830,118 @@
 		
 	</footer><!--/Footer-->
 	
+	<script type="text/javascript" src="jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="jquery.livequery.js"></script>
+	<script type="text/javascript">
 
+		$(document).ready(function () {
+
+			var Arrays = new Array();
+
+			$('#wrap li').mousemove(function () {
+
+				var position = $(this).position();
+
+				$('#cart').stop().animate({
+
+					left: position.left + 'px',
+
+				}, 250, function () {
+
+				});
+			}).mouseout(function () {
+
+			});
+
+			$('#wrap li').click(function () {
+
+				var thisID = $(this).attr('id');
+
+				var itemname = $(this).find('div .name').html();
+				var itemprice = $(this).find('div .price').html();
+
+				if (include(Arrays, thisID)) {
+					var price = $('#each-' + thisID).children(".shopp-price").find('em').html();
+					var quantity = $('#each-' + thisID).children(".shopp-quantity").html();
+					quantity = parseInt(quantity) + parseInt(1);
+
+					var total = parseInt(itemprice) * parseInt(quantity);
+
+					$('#each-' + thisID).children(".shopp-price").find('em').html(total);
+					$('#each-' + thisID).children(".shopp-quantity").html(quantity);
+
+					var prev_charges = $('.cart-total span').html();
+					prev_charges = parseInt(prev_charges) - parseInt(price);
+
+					prev_charges = parseInt(prev_charges) + parseInt(total);
+					$('.cart-total span').html(prev_charges);
+
+					$('#total-hidden-charges').val(prev_charges);
+				}
+				else {
+					Arrays.push(thisID);
+
+					var prev_charges = $('.cart-total span').html();
+					prev_charges = parseInt(prev_charges) + parseInt(itemprice);
+
+					$('.cart-total span').html(prev_charges);
+					$('#total-hidden-charges').val(prev_charges);
+
+					$('#left_bar .cart-info').append('<div class="shopp" id="each-' + thisID + '"><div class="label">' + itemname + '</div><div class="shopp-price"> RM<em>' + itemprice + '</em></div><span class="shopp-quantity">1</span><img src="/image/icon/remove.png" class="remove" /><br class="all" /></div>');
+
+					$('#cart').css({ '-webkit-transform': 'rotate(20deg)', '-moz-transform': 'rotate(20deg)' });
+				}
+
+				setTimeout('angle()', 200);
+			});
+
+
+			$('.remove').livequery('click', function () {
+
+				var deduct = $(this).parent().children(".shopp-price").find('em').html();
+				var prev_charges = $('.cart-total span').html();
+
+				var thisID = $(this).parent().attr('id').replace('each-', '');
+
+				var pos = getpos(Arrays, thisID);
+				Arrays.splice(pos, 1, "0")
+
+				prev_charges = parseInt(prev_charges) - parseInt(deduct);
+				$('.cart-total span').html(prev_charges);
+				$('#total-hidden-charges').val(prev_charges);
+				$(this).parent().remove();
+
+			});
+
+			$('#Submit').livequery('click', function () {
+
+				var totalCharge = $('#total-hidden-charges').val();
+
+				$('#left_bar').html('Total Charges: $' + totalCharge);
+
+				return false;
+
+			});
+
+		});
+
+		function include(arr, obj) {
+			for (var i = 0; i < arr.length; i++) {
+				if (arr[i] == obj) return true;
+			}
+		}
+		function getpos(arr, obj) {
+			for (var i = 0; i < arr.length; i++) {
+				if (arr[i] == obj) return i;
+			}
+		}
+		function angle() { $('#cart').css({ '-webkit-transform': 'rotate(0deg)', '-moz-transform': 'rotate(0deg)' }); }
+
+	</script>
+
+	<script>
+		new flickerplate('.flicker-example');
+	</script>
   
     <script src="js/jquery.js"></script>
 	<script src="js/price-range.js"></script>
