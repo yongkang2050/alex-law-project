@@ -116,26 +116,13 @@
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Products</a></li>
 										<li><a href="product-details.html">Product Details</a></li> 
-										<li><a href="checkout.html">Checkout</a></li> 
-										<li><a href="cart.html">Cart</a></li> 
-										<li><a href="login.html">Login</a></li> 
                                     </ul>
-                                </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.html">Blog List</a></li>
-										<li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li> 
-								<li><a href="contact-us.html">Contact</a></li>
+                                </li>  
+								<li><a href="contact-us.php">Contact</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="search_box pull-right">
-							<input type="text" placeholder="Search"/>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div><!--/header-bottom-->
@@ -254,7 +241,7 @@
 						<div class="single-widget">
 							<h2>Service</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="contact-us.html">Contact Us</a></li>
+								<li><a href="contact-us.php">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
@@ -286,7 +273,7 @@
 			<div class="container">
 				<div class="row">
 					<p class="pull-left">Copyright © 2021 AD-Web G1. All rights reserved.</p>
-					<p class="pull-right">Designed by <span>2 of G1 members</span></p>
+					<p class="pull-right">Designed by <span>Prodigal Eye</span></p>
 				</div>
 			</div>
 		</div>
