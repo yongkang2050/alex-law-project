@@ -280,17 +280,6 @@
 							</div>
 						</div>
 						<!--/category-products-->
-
-						<div class="price-range">
-							<!--price-range-->
-							<h2>Price Range</h2>
-							<div class="well">
-								<input type="text" class="span2" value="" data-slider-min="1" data-slider-max="10000"
-									data-slider-step="5" data-slider-value="[500,1000]" id="sl2"><br />
-								<b>RM 1</b> <b class="pull-right">RM10000</b>
-							</div>
-						</div>
-						<!--/price-range-->
 						
 						<div class="shipping text-center"><!--Gumdam-->
 							<a href="/product-details6.html">
@@ -900,8 +889,21 @@
 		
 	</footer><!--/Footer-->
 	
+	<script>
+		new flickerplate('.flicker-example');
+	</script>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/price-range.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/main.js"></script>
+
 	<script type="text/javascript" src="jquery-1.3.2.js"></script>
 	<script type="text/javascript" src="jquery.livequery.js"></script>
+
 	<script type="text/javascript">
 
 		$(document).ready(function () {
@@ -987,7 +989,7 @@
 
 				var totalCharge = $('#total-hidden-charges').val();
 
-				$('#left_bar').html('Total Charges: $' + totalCharge);
+				$('#left_bar').html('Total Charges: RM' + totalCharge);
 
 				return false;
 
@@ -1008,16 +1010,6 @@
 		function angle() { $('#cart').css({ '-webkit-transform': 'rotate(0deg)', '-moz-transform': 'rotate(0deg)' }); }
 
 	</script>
-
-	<script>
-		new flickerplate('.flicker-example');
-	</script>
-  
-    <script src="js/jquery.js"></script>
-	<script src="js/price-range.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
 </body>
+
 </html>
