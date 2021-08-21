@@ -6,7 +6,11 @@ if(!empty($final_data)){
     $index = 0;
 
     foreach($final_data as $row){
-       
+
+        echo "<tr>";
+        echo "<td>ID: </td>".$row -> id;
+        echo "</tr>";
+        echo "<br />";
         echo "<tr>";
         echo "<td>Name: </td>".$row -> name;
         echo "</tr>";
@@ -23,6 +27,8 @@ if(!empty($final_data)){
         echo "<td>Message: </td>".$row -> message;
         echo "</tr>";
         echo "<br />";
+        echo"<a href='edit.php?edit_id=".$index."'>Edit |</a>";
+        echo"<a href='delete.php?delete_id=".$index."'> Delete</a>";     
       
         $index ++; //increment the index
         echo "<hr>";

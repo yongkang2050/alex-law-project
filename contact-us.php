@@ -165,6 +165,7 @@
 						$current_data = file_get_contents('user_data.json');
 						$array_data = json_decode($current_data, true);
 						$extra = array(
+							'id' => $_POST['id'],
 							'name' => $_POST['name'],
 							'email' => $_POST['email'],
 							'subject' => $_POST['subject'],
@@ -199,6 +200,9 @@
 	    				<h2 class="title text-center">Get In Touch</h2>
 	    				<div class="status alert alert-success" style="display: none"></div>
 				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
+						<div class="form-group col-md-6">
+				                <input type="text" name="id" class="form-control" placeholder="user id">
+				            </div>
 				            <div class="form-group col-md-6">
 				                <input type="text" name="name" class="form-control" placeholder="Name">
 				            </div>
