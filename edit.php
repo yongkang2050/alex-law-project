@@ -28,7 +28,7 @@ $array_data[$edit_id] = $update_arr;
 $current_data = json_encode($array_data,JSON_PRETTY_PRINT);
 file_put_contents('user_data.json',$current_data);
 
-header('location: index.php');
+header('location: listView.php');
 }
 ?>
 

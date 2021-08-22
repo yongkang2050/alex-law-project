@@ -13,7 +13,7 @@ if(isset($_GET['delete_id'])){
 
     file_put_contents('user_data.json', $current_data); //save the file
 
-    header('location:index.php'); //redirect index
+    header('location:listView.php'); //redirect index
 }
 
 ?>
